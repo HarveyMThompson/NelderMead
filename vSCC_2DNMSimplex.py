@@ -415,7 +415,7 @@ if 'plotgraph' not in st.session_state:
 else:
     figplt = create_plot()
     st.pyplot(figplt)
-    st.write('Nelder Mead Calculations')
+    # st.write('Nelder Mead Calculations')
     # stx.scrollableTextbox(st.session_state.Calcs,height=200)
 
     # animate calculations
