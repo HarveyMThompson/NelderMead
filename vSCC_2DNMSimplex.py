@@ -7,9 +7,9 @@
 # Python implementation of the Bisector algorithm for use in Tkinter
 import numpy as np
 import streamlit as st
-import streamlit_scrollable_textbox as stx
+# import streamlit_scrollable_textbox as stx
 import matplotlib.pyplot as plt
-import sys
+# import sys
 import sympy as sp
 import time
 
@@ -411,12 +411,12 @@ if 'plotgraph' not in st.session_state:
         figplt = create_plot()
         st.pyplot(figplt)
         st.write('Nelder Mead Calculations')
-        stx.scrollableTextbox(st.session_state.Calcs,height=200)
+        # stx.scrollableTextbox(st.session_state.Calcs,height=200)
 else:
     figplt = create_plot()
     st.pyplot(figplt)
     st.write('Nelder Mead Calculations')
-    stx.scrollableTextbox(st.session_state.Calcs,height=200)
+    # stx.scrollableTextbox(st.session_state.Calcs,height=200)
 
     # animate calculations
     if st.button("Animate Graph"):
